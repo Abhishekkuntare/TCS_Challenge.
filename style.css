@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+
+.btn_box {
+    margin-bottom: 30px;
+}
+.btn_box > button{
+    width: 120px;
+    padding: 15px;
+    outline: none;
+    border: none;
+    background-color: rgb(110, 110, 239);
+}
+
+.next_prev_btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.next_prev_btns > button{
+    padding: 10px;margin-left: 10px;
+    width: 120px;
+    outline: none;
+    border: none;
+    background-color: rgb(97, 97, 100);
+}
